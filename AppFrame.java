@@ -9,7 +9,7 @@ public class AppFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Centers the window
 
-        JLabel welcome = new JLabel("Welcome!"); // Label of the Frame
+        JLabel welcome = new JLabel("Welcome User!"); // Label of the Frame
         welcome.setHorizontalAlignment(SwingConstants.CENTER); // Center horizontally
         welcome.setVerticalAlignment(SwingConstants.TOP); // Center in the TOP
         add(welcome);
